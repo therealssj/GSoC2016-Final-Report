@@ -17,7 +17,7 @@ Along side the Two Factor module I also worked on the Google Login Authenticator
 
 The Two Factor Module is just a pluggable provider. On its own it is of no use and needs external plugins/modules like Google Login Authenticator for the the site to be able to use it.
 
-There are three types of plugins in Two Factor:
+There are four types of plugins in Two Factor:
 - Validation plugins like TFA Time Based OTP and TFA Hmac Based OTP.
 - Login plugins like TFA Trusted Trusted Browser(Cookie based authentication)
 - Send plugins ( No plugins implemented yet )
@@ -38,6 +38,7 @@ If someone wants to implement a new authentication method they will need to prov
 - Add Flood Control.
 - Add Basic Tests.
 - Utilise the [encrypt](https://www.drupal.org/project/encrypt) module to handle the encryption.
+- Add a Drupal Web Services plugin.
 
 **Repositories Contributed To**
 
