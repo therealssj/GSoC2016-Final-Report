@@ -13,7 +13,7 @@ When I started working on the Two Factor module a port was already being worked 
 
 Along side the Two Factor module I also worked on the Google Login Authenticator module but did not make any commits till I had some basic functionality worked out for the Two Factor Module.
 
-** Plugin Architecture **
+**Plugin Architecture**
 
 The Two Factor Module is just a pluggable provider. On its own it is of no use and needs external plugins/modules like Google Login Authenticator for the the site to be able to use it.
 
